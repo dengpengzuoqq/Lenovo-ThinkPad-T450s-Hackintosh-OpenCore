@@ -1,3 +1,5 @@
+来源于：https://github.com/CLAY-BIOS/Lenovo-ThinkPad-T450s-Hackintosh-OpenCore
+
 $> dmg2img -l com.apple.recovery.boot/BaseSystem.dmg
 		partition 0: Protective Master Boot Record (MBR : 0)
 		partition 1: GPT Header (Primary GPT Header : 1)
