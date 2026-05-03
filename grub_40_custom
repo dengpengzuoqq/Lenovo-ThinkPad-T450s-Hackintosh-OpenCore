@@ -1,0 +1,10 @@
+#!/bin/sh
+cat << EOF 
+menuentry 'OpenCore - Mac' {
+	insmod part_gpt
+	insmod fat
+	set root='hd0,gpt1'
+	chainloader (\${root})/EFI/OC/OpenCore.efi
+	boot
+}
+EOF
